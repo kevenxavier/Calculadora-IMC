@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="75sp"
+        android:text="Seu IMC é:"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:text="27.108"
+        android:textSize="38sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="15sp"/>
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:text="Sua classificação é: "
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:text="Tabela de classificações"
+        android:textSize="16sp"
+        android:layout_marginTop="30sp"
+        android:lineSpacingMultiplier="30"/>
+
+    <TextView
+        android:lineSpacingExtra="15sp"
+        android:layout_marginStart="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ABAIXO DO PESO: resultados abaixo de 18.5"/>
+
+    <TextView
+        android:lineSpacingExtra="15sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PESO IDEAL: resultados entre 18.5 e 24.9"/>
+
+    <TextView
+        android:lineSpacingExtra="15sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOBREPESO: resultados entre 25 e 29.9"/>
+
+    <TextView
+        android:lineSpacingExtra="15sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OBESIDADE: resultados entre 30 e 39.9"/>
+
+    <TextView
+        android:lineSpacingExtra="15dp"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OBESIDADE MÓRBIDA: resultados de 40 acima "/>
+
+
+
+</LinearLayout>
